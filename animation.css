@@ -1,0 +1,104 @@
+#me{
+animation-name: rgb;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+transition: all 0.3s ease 0s;
+font-family: 'Times New Roman', Times, serif;
+font-size: 100px;
+
+}
+
+@keyframes rgb{
+    30%{ color: red;
+
+    }
+60%{
+    color: green;
+}
+
+90%{
+    color: blue;
+}
+    
+}
+
+.buy button:hover{
+    background-color: hsl(120, 97%, 44%);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.nopay button:hover{
+    background-color: hsl(120, 97%, 44%);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+
+
+.prebtn button:hover #ext1{
+    display: inline-block;
+    transition: all 1s ease 0s;
+}
+
+.prebtn button:hover #ext2{
+    display: inline-block;
+    transition: all 1s ease 0s;
+}
+
+
+.prebtn button:hover{
+    background-color: hsl(51, 100%, 55%);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px goldenrod;
+}
+
+.basebtn button:hover{
+    background-color:  hsl(120, 97%, 44%);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.pay img:hover{
+    opacity: 0.8;
+    
+}
+
+.console li:hover{
+    background-color: hsla(0, 0%, 93%, 0.897);
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-size: 20px;
+    
+    
+}
+
+.genre h2{
+    text-decoration: underline;
+    
+}
+
+
+.img1:hover .textlay{
+ opacity: 1;
+    
+}
+
+.text{
+ font-size: 40px;
+ border: none;
+ outline: none;
+padding: 10px 20px;
+border-radius: 30px;
+}
+.searchbar button{
+    font-size: 40px;
+    background-color: azure;
+    color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+

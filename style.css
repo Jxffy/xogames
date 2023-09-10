@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+  font-family: lora;
+}
+
+header img{
+    height: 250px;
+    display:inline-block;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+nav ul li{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+   left: 730px;
+   top: 50px;
+    margin: 10px;
+}
+
+header{
+    display: flex;
+ 
+}
+
+i{
+    padding: 8px;
+}
+
+#intro{
+
+    color: white;
+    font-family: montserrat;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    top: 160px;
+    text-align: center;
+
+}
+
+.push{
+    position: relative;
+    top: 230px;
+    left: 780px;
+}
+
+.push i{
+    font-size: 40px;
+    color: white;
+    animation-duration: 2.5s;
+}
+#menu{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+}
+
+.menucard li{
+color: rgb(168, 43, 43);
+padding: 30px;
+}
+
+
+#deals p{
+color: white;
+font-family: lora;
+font-weight: bolder;
+font-size: 40px;
+padding: 10px;
+}
+
+#deals{
+    display: inline-block;
+    position: relative;
+    top: 450px;
+}
+
+#deals i{
+    padding: 15px;
+    animation-duration: 5s;
+}
+
+
+.deals{
+    position: relative;
+    top: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.deals img{
+    width: 200px;
+    padding: 80px;
+}
+
+.buy button{
+width: 180px;
+padding: 10px;
+ background-color: hsl(120, 100%, 30%);
+ border: none;
+
+
+}
+
+ .buy{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    left: 100px;
+   
+}
+
+.buy button:nth-child(2n){
+    position: relative;
+    top: 440px;
+    right: 200px;
+   
+} 
+
+.deals img:hover{
+    opacity: 0.8;
+  
+}
+
+.cancel button{
+    position: fixed;
+    right: 350px;
+    bottom: 180px;
+}
+.free p{
+    color: white;
+    font-size: 30px;
+   font-family: lora;
+   font-weight: bolder;
+   padding: 0px 8px;
+}
+
+.free{
+position: relative;
+top: 550px;
+}
+
+.pay{
+    position: relative;
+    top: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pay img{
+    justify-content: space-around;
+}
+
+.nopay button{
+    width: 200px;
+padding: 10px;
+ background-color: hsl(120, 100%, 30%);
+ border: none;
+}
+
+.nopay{
+   position: relative;
+   top: 670px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.seemore{
+    position: relative;
+    top: 780px;
+    left: 710px;
+    
+}
+
+.seemore button{
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+ background: none;
+    color: white;
+    position: relative;
+    font-size: 20px;
+
+}
+.color{
+    background-color: rgb(0, 119, 255);
+    position: absolute;
+    width: 0px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: 0.8s ease;
+    z-index: -1;
+}
+.seemore :hover .color{
+width: 150px;
+    
+}
+.seemore button:hover{
+    font-size: 22px;
+
+}
+
+#cs{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 30px;
+font-weight: bolder;
+font-family: lora;
+top: 400px;
+}
+
+.cs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cs img{
+    width: 350px;
+    position: relative;
+    top: 500px;
+}
+
+.cs p{
+    color: white;
+    font-size: 100px;
+}
+
+.csp
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.csp p{
+    position: relative;
+    top: 530px;
+    text-align: center;
+    color: white;
+    font-family: lora;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.basebtn{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.basebtn button{
+    position: relative;
+    top: 540px;
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(120, 100%, 30%);
+}
+
+.prebtn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prebtn button{
+    position: relative;
+    top: 560px;
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 50px;
+    background-color: gold;
+}
+
+#ext1{
+display: none;
+}
+
+#ext2{
+display: none;
+}
+
+#console{
+    position: relative;
+    color: white;
+    font-family: lora;
+   font-size: 30px;
+   font-weight: bolder;
+   padding: 5px;
+   top: 200px;
+}
+
+li img{
+    width: 200px;
+    height: 160px;
+}
+
+.console ul{
+    position: relative;
+    top: 250px;
+}
+
+.console ul li{
+    margin: 10px;
+    border: 1px solid;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+#con{
+    position: absolute;
+    padding: 90px;
+
+}
+
+#genre{
+    position: relative;
+    color: white;
+    font-family: lora;
+   font-size: 30px;
+   font-weight: bolder;
+   padding: 5px;
+ bottom: 600px;
+}
+
+.genre p{
+    position: relative;
+    color: white;
+    font-family: lora;
+   font-size: 20px;
+  font-style: italic;
+   padding: 5px;
+   bottom: 500px;
+
+}
+
+
+.genimg{
+    display: flex;
+    position: relative;
+   bottom: 450px;
+   left: 185px;
+}
+
+.overlay{
+    position: relative;
+    color: white;
+    font-family: lora;
+   font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  bottom: 970px;
+  left: 220px;
+  width: 300px;
+  display: none;
+
+}
+
+.off{
+    position: relative;
+    color: white;
+    font-family: lora;
+   font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  bottom: 960px;
+  left: 620px;
+  width: 300px;
+
+}
+
+.over3{
+    width: 300px;
+    color: white;
+    font-family: lora;
+   font-size: 20px;
+  font-style: italic;
+  text-align: center;
+ 
+}
+
+.over3{
+    position: relative;
+    left: 430px;
+}
+
+#pro{
+    height: 100px;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+   
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    font-family: lora;
+    padding: 30px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+    font-size: 28px;
+  background-color: hsl(0, 0%, 15%);
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    border: none;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #span{
+    position: relative;
+    margin-top: 80px;
+   
+    color: white;
+
+
+  }
+
+.textlay{
+    width: 300px;
+    font-family: lora;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 897px;
+    left: 250px;
+    color:white;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+
+}
+.shootlay{
+    width: 300px;
+    font-family: lora;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 1160px;
+    left: 650px;
+    color:white;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+}
+
+.battlelay{
+    width: 300px;
+    font-family: lora;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 1430px;
+    left: 1050px;
+    color:white;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+ 
+}
+
+@keyframes travel{
+    from{
+        translate: 0px 250px ;
+    }
+}
+
+#head{
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+.textlay:hover{
+    opacity: 1;
+    animation-name: travel;
+    animation-duration: 0.2s;
+
+}
+
+.shootlay:hover{
+    opacity: 1;
+    animation-name: travel;
+    animation-duration: 0.2s;
+
+}
+
+.battlelay:hover{
+    opacity: 1;
+    animation-name: travel;
+    animation-duration: 0.2s;
+
+}
+
+.searchbar{
+    position: relative;
+    bottom: 1100px;
+    left: 550px;
+}
+
+.search {
+	display: inline-block;
+	position: relative;
+	height: 35px;
+	width: 35px;
+	box-sizing: border-box;
+	margin: 0px 8px 7px 0px;
+	padding: 7px 9px 0px 9px;
+	border: 3px solid #ffffff;
+	border-radius: 25px;
+	transition: all 200ms ease;
+	cursor: text;
+	
+	&:after {
+		content: "";
+		position: absolute;
+		width: 3px;
+		height: 20px;
+		right: -5px;
+		top: 21px;
+		background: white;
+		border-radius: 3px;
+		transform: rotate(-45deg);
+		transition: all 200ms ease;
+	}
+	
+	&.active,
+	&:hover {
+		width: 400px;
+		margin-right: 0px;
+		
+		&:after {
+			height: 0px;	
+		}
+	}
+	
+	input {
+		width: 100%;
+		border: none;
+		box-sizing: border-box;
+		font-family: Helvetica;
+		font-size: 15px;
+		color: inherit;
+		background: transparent;
+		outline-width: 0px;
+	}
+}
+
+.cntr{
+    position: relative;
+    bottom: 1200px;
+    left: 750px;
+    color: #ffffff;
+}
+
+.info p{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: lora;
+    padding: 10px;
+}
+
+.black4{
+    width: 100%;
+    height: 1100px;
+    background-color: rgba(0, 0, 0, 0.562);
+    position: relative;
+    bottom: 2160px;
+    z-index: -1;
+}
+
+
+.buy span{
+    display: none;
+}
+
+.buy button:hover span{
+    display: block;
+
+}
+
+#list1 li{
+    font-family: lora;
+    text-align: center;
+}
+#list1 li:hover{
+    border-radius: 30px;
+    height: 30px;
+    font-size: 19px;
+    transition: all 0.3s ease 0s;
+    text-decoration: underline;
+    animation-name: up;
+    animation-duration: 1s;
+}
+
+@keyframes up{
+    to{
+        translate:  0px -15px;
+    }
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    font-family: lora;
+    padding: 20px;
+}
+footer a{
+    color: rgb(1, 100, 167);
+    padding: 15px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p i{
+    font-size: 30px;
+    padding: 50px 0px;
+}
+
+#face:hover{
+    color: rgb(0, 68, 255);
+    font-size: 35px;
+    transition: 0.5s ease;
+    animation-name: up;
+    animation-duration: 1s;
+}
+
+#insta:hover{
+    color: hsl(320, 82%, 35%);
+    font-size: 35px;
+    transition: 0.5s ease;
+    animation-name: up;
+    animation-duration: 1s;
+}
+
+#what:hover{
+    color: hsl(128, 81%, 44%);
+    font-size: 35px;
+    transition: 0.5s ease;
+    animation-name: up;
+    animation-duration: 1s;
+}
+
+#tweet:hover{
+    color: hsl(197, 100%, 50%);
+    font-size: 35px;
+    transition: 0.5s ease;
+    animation-name: up;
+    animation-duration: 1s;
+}
+
+.final{
+    position: relative;
+    left: 1400px;
+  
+}
+
+footer span{
+    display: inline-block;
+    padding: 30px;
+    font-size: 18px;
+}
+
+#ani{
+    animation-name: transverse;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+
+@keyframes transverse {
+    from{
+        translate: 1500px;
+    }
+    
+}

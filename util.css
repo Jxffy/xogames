@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?w=900&t=st=1694090863~exp=1694091463~hmac=ec33ffa812ffa054e15f86146688597e19acfd91ccec70596e2d3a0587a410ec);
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+    background-color: rgba(0, 0, 0, 0.336);
+ height: 200px;
+}
+
+.deals{
+    background-color: hsla(0, 0%, 0%, 0.459);
+}
+
+
+ video{
+    width: 400px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 1;
+
+}
+
+.black{
+background-color: rgba(0, 0, 0, 0.432);
+position: relative;
+top: 300px;
+height: 500px;
+z-index: -1;
+}
+
+.black2{
+    background-color: rgba(0, 0, 0, 0.432);
+    position: relative;
+    top: 70px;
+    height: 500px;
+    z-index: -1;
+    }
+
+    .black3{
+        background-color: rgba(0, 0, 0, 0.596);
+        position: relative;
+        bottom: 670px;
+   
+        height: 1000px;
+        z-index: -1;
+        }
+
+        .open .backdrop{
+            visibility: visible;
+            opacity: 1;
+        }
